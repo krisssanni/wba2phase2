@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	
 		<xsd:element name="id" type="xsd:integer"/>
 		<xsd:element name="name" type="xsd:string"/>
         <xsd:element name="password" type="xsd:string">
@@ -9,9 +8,9 @@
 				<minLength value"8" />
 				<pattern value="\d+[A-Z]+" />
 		</xsd:element>
+		<xsd:Element name="contact" type="xsd:string"/>
 		<xsd:element name="mail" type="xsd:string"/>
-		<xsd:element name="age" type="xsd:integer"/>
-		<xsd:element name="semester" type="xsd:integer"/>
+		<xsd:element name="sektor" type="xsd:string"/>
+		<xsd:element name="phone" type="xsd:string"/>
 		<xsd:element name="date" type="xsd:datetime"/>
-
 </xsd:schema>
